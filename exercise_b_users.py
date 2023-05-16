@@ -67,8 +67,9 @@ print(users ["Erik"]["lottery_numbers"][2])
 # 6. Return an list of Avril's lottery numbers that are even
 
 
-for numbers in ["Avril"]["lottery_numbers"]:
-  print(f{numbers % 2 == 0})
+for numbers in users ["Avril"]["lottery_numbers"]:
+  if numbers %  2 == 0:
+    print(numbers)
 
 
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
