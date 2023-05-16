@@ -20,7 +20,15 @@ print(stops)
 stops.pop(2)
 print(stops)
 #7. Print the number of stops there are in the list
+number_of_stops = len(stops)
+print(number_of_stops)
 #8. Sort the list alphabetically
+alphabetically = sorted(stops)
+print (alphabetically)
 #9. Reverse the positions of the stops in the list
+reverse_list = stops.reverse()
+print(stops)
 #10 Print out all the stops using a for loop
 
+for stations in stops:
+    print(f"This train stops at {stations}.")
