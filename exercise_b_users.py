@@ -78,5 +78,21 @@ users["Erik"]["lottery_numbers"].append(7)
 print(users["Erik"]["lottery_numbers"])
 
 # 8. Change Erik's hometown to Edinburgh
+users["Erik"]["home_town"] = "Edinburgh"
+print(users ["Erik"]["home_town"])
 # 9. Add a pet dog to Erik called "fluffy"
+users["Erik"]["pets"].append({
+  "name":"fluffy",
+  "species":"dog"
+})
+
+print(users["Erik"]["pets"][4]["name"])
+
 # 10. Add another person to the users dictionary
+
+users ["Penny"] = {
+  "twitter" : "pennycoin",
+  "home_town" : "Glasgow"
+}
+
+print(users["Penny"]["home_town"])
