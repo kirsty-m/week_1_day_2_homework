@@ -69,6 +69,7 @@ eriks_numbers = users["Erik"]["lottery_numbers"]
 eriks_numbers.sort()
 print(eriks_numbers[0])
 
+
 # 6. Return an list of Avril's lottery numbers that are even
 
 
