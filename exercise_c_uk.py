@@ -28,8 +28,18 @@ united_kingdom.append ( {
   }
 )
 
-print(united_kingdom[3])
+
 
 # 3. Use a loop to print the names of all the countries in the UK.
 
+for country in united_kingdom:
+  print(country["name"])
+
+
 # 4. Use a loop to find the total population of the UK.
+
+total_population = 0
+for population in united_kingdom:
+  total_population += population["population"]
+
+print(total_population)

@@ -13,22 +13,42 @@ print(stops)
 
 index = stops.index("Linlithgow")
 print(index)
+# OR....
+#print(stops.index("Linlitgow"))
 #5. Remove "Livingston" from the list using its name
 stops.remove("Livingston")
 print(stops)
+
 #6. Delete "Cumbernauld" from the list by index
 stops.pop(2)
 print(stops)
+
+#OR...
+#stops.pop(stops.index("Cumbernauld"))
+
 #7. Print the number of stops there are in the list
 number_of_stops = len(stops)
 print(number_of_stops)
+#OR...
+#print(len(stops))
+
 #8. Sort the list alphabetically
 alphabetically = sorted(stops)
 print (alphabetically)
+
+#OR...
+# stops.sort() original list is changed. adding a variable creates a separate sorted list
+
 #9. Reverse the positions of the stops in the list
 reverse_list = stops.reverse()
 print(stops)
+
+# OR....
+# stops.sort(reverse=True)
 #10 Print out all the stops using a for loop
 
 for stations in stops:
     print(f"This train stops at {stations}.")
+
+for stop in stops:
+    print(stop)
