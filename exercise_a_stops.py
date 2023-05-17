@@ -52,3 +52,4 @@ for stations in stops:
 
 for stop in stops:
     print(stop)
+    
